@@ -1,5 +1,5 @@
 module conta.servicos {
-    // usa sistema
+    /// usa sistema
     requires conta.sistema;
 
     // usa spring
@@ -11,6 +11,6 @@ module conta.servicos {
     requires java.sql;
     requires spring.jdbc;
 
-    // abre respositorio
-    opens conta.servicos.respositorio;
+    // abre repositorio
+    opens conta.servicos.repositorio;
 }

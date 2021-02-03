@@ -1,4 +1,4 @@
-package conta.servicos.respositorio;
+package conta.servicos.repositorio;
 
 import conta.sistema.dominio.modelo.Conta;
 import conta.sistema.dominio.modelo.NegocioException;

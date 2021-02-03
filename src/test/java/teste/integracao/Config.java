@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 // Responsável por configurar os serviços do spring
 @Configuration
 @EnableTransactionManagement
-@ComponentScan({"conta.servicos.respositorio"})
+@ComponentScan({"conta.servicos.repositorio"})
 public class Config {
 
     @Bean
